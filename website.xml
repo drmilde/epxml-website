@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!DOCTYPE website SYSTEM "website.dtd">
+<website>
+  <content>
+    <kopf>
+      <titel>Meine kleine Webseite</titel>
+      <stile>
+	<stil>Hier koennte ihr Stil stehen.</stil>
+      </stile>
+      <externes>
+	<extern verweis="#verweis">Ich moechte Bootstrap benutzen</extern>
+      </externes>
+    </kopf>
+    <koerper>
+      <inhalt>
+	<!-- one of (bild text) -->
+	<text>Hier steht ein bisschen Text</text>
+      </inhalt>
+      <inhalt>
+	<bild quelle="#quelle">Hier ist ein bild</bild>
+      </inhalt>
+    </koerper>
+  </content>
+</website>

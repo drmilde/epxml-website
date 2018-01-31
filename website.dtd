@@ -1,0 +1,22 @@
+<!ELEMENT website (content)>
+
+<!ELEMENT content (kopf?, koerper)>
+<!ELEMENT kopf (titel, stile, externes)>
+<!ELEMENT titel (#PCDATA)>
+<!ELEMENT stile (stil*)>
+<!ELEMENT externes (extern*)>
+
+<!ELEMENT stil (#PCDATA)>
+<!ELEMENT extern (#PCDATA)>
+
+<!ELEMENT koerper (inhalt*)>
+<!ELEMENT inhalt (text|bild)>
+<!ELEMENT text (#PCDATA)>
+<!ELEMENT bild (#PCDATA)>
+
+
+<!ATTLIST bild
+quelle CDATA #REQUIRED>
+
+<!ATTLIST extern
+verweis CDATA #REQUIRED>
